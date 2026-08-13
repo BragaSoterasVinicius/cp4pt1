@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -25,6 +26,10 @@ public class ProdutoService {
                 .preco(dados.preco())
                 .build();
         return produtoRepository.save(produto);
+    }
+
+    public List<Produto> listar(){
+        return produtoRepository.findAll();
     }
 
     public Produto atualizar(Long id, ProdutoRequestDTO dados) {
@@ -71,7 +76,7 @@ public class ProdutoService {
         produtoRepository.delete(buscarPorId(id));
     }
 
-    private Produto buscarPorId(Long id) {
+    public Produto buscarPorId(Long id) {
         return produtoRepository.findById(id)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Produto nao encontrado: " + id));
     }
