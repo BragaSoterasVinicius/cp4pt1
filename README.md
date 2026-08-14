@@ -170,7 +170,7 @@ Abaixo estão as especificações dos endpoints criados, as estruturas JSON util
 
 A aplicação foi "deployada" e está acessível através do seguinte link:
 
-👉 **[Link do Deploy - https://cp4pt1-deploy.onrender.com**
+👉 **Link do Deploy - https://cp4pt1-deploy.onrender.com**
 
 ---
 
