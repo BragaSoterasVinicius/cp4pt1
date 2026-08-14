@@ -80,7 +80,7 @@ Abaixo estão as especificações dos endpoints criados, as estruturas JSON util
   "nome": "Maçã Gala",
   "tipo": "Fruta",
   "setor": "Hortifruti",
-  "tamanho": "1kg",
+  "tamanho": 1.0,
   "preco": 8.50
 }
 ```
@@ -144,7 +144,7 @@ Abaixo estão as especificações dos endpoints criados, as estruturas JSON util
   "nome": "Maçã Gala Selecionada",
   "tipo": "Fruta",
   "setor": "Hortifruti Premium",
-  "tamanho": "500g",
+  "tamanho": 500.0,
   "preco": 6.00
 }
 ```
