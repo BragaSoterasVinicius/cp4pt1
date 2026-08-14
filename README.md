@@ -35,7 +35,6 @@ O projeto foi gerado através do Spring Initializr utilizando as seguintes tecno
 ### 📸 Configuração do Spring Initializr
 
 ![Print da configuração do Spring Initializr](./imagens/spring-initializr.png)
-*(Substitua o caminho acima pelo print da tela do Spring Initializr)*
 
 ---
 
